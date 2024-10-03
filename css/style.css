@@ -99,9 +99,8 @@ body, html {
 }
 
 .teste {
-  margin-left: 1000px;
   display: flex;
-  align-items: center;
+  margin-left: 1300px;
   top: 40px;
   gap: 30px;
   position: absolute;

@@ -67,7 +67,7 @@
   }
   
   .teste {
-    margin-left: 1000px;
+    margin-left: 1300px;
     display: flex;
     align-items: center;
     top: 40px;
@@ -89,7 +89,7 @@
     height: 400px;
     position: absolute;
     top: 400px;
-    margin-left: 300px;
+    margin-left: 100px;
   }
   .projeto1{
     position: absolute;
@@ -117,7 +117,7 @@
     height: 400px;
     position: absolute;
     top: 400px;
-    margin-left: 1200px;
+    margin-left: 1100px;
   }
   .projeto2{
     position: absolute;
@@ -138,7 +138,7 @@
     height: 400px;
     position: absolute;
     top: 900px;
-    margin-left: 1190px;
+    margin-left: 1100px;
   }
   .projeto4{
     position: absolute;
@@ -157,7 +157,7 @@
     height: 400px;
     position: absolute;
     top: 900px;
-    margin-left: 300px;
+    margin-left: 100px;
   }
   .projeto5{
     position: absolute;
