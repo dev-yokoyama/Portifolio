@@ -26,7 +26,7 @@ body, html {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Isso garante que o vídeo cubra toda a área disponível sem ser cortado */
+  object-fit: cover; 
 }
 
 .header-overlay {
@@ -37,7 +37,10 @@ body, html {
   height: 100%;
   pointer-events: none;
 }
-
+.menu {
+  display: flex;
+  justify-content: flex-end;
+}
 .headers {
   position: relative;
   width: 100%;
@@ -55,7 +58,7 @@ body, html {
 .headers  {
   margin: 0;
   font-size: 1.5rem;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+  box-shadow: 0px 4px 10 px rgba(0, 0, 0, 0.3); 
 }
 
 .teste, .teste2 {
@@ -63,9 +66,6 @@ body, html {
   display: flex;
 }
 
-.teste, .teste2, .teste4{
-  margin-left: 30px;
-}
 
 .teste, .teste2, .teste3 {
   color: white;
@@ -100,12 +100,14 @@ body, html {
 
 .teste {
   display: flex;
-  margin-left: 1300px;
+  align-items: center;
   top: 40px;
   gap: 30px;
   position: absolute;
 }
-
+.todos{
+  justify-content: center;
+}
 .teste3:hover {
   border: none;
   transition: 1s;
